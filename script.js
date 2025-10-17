@@ -50,14 +50,14 @@ canvas.addEventListener("touchmove", (e) => {
 
 // ==== Gambar player & boss ====
 const playerImg = new Image();
-playerImg.src = "player.png";
+playerImg.src = "https://Budboyy.github.io/Space-Drift/player.png";
 
 const bossImg = new Image();
-bossImg.src = "boss.png";
+bossImg.src = "https://Budboyy.github.io/Space-Drift/boss.png";
 
 // ==== Gambar musuh ====
 const enemyImg = new Image();
-enemyImg.src = "enemies.png"; // file image untuk musuh biasa
+enemyImg.src = "https://Budboyy.github.io/Space-Drift/enemies.png"; // file image untuk musuh biasa
 
 // ==== Fungsi tembak player ====
 function shoot() {
@@ -336,3 +336,4 @@ setInterval(spawnEnemy, 1000);
 
 // Start game
 loop();
+
