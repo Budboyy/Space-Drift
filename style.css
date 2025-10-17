@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  touch-action: none;
+}
+
+canvas {
+  display: block;
+  background: radial-gradient(circle at center, #050505 0%, #000 100%);
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #00ffff;
+  font-family: monospace;
+  font-size: 18px;
+  text-shadow: 0 0 6px cyan;
+}
